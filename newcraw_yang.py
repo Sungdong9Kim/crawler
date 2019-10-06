@@ -8,7 +8,7 @@ import win32com.client
 
 page_num = int(input("마지막 페이지 번호를 입력해 주세요 : "))
 
-address = 'http://minwon.nhis.or.kr/wbm/kb/retrievePAPPrdList.xx'
+address = 'https://minwon.nhis.or.kr/wbm/kb/retrieveHsnhmMdtrPrdList.xx'
 
 driver = webdriver.Chrome('/Users/kikik/Downloads/chromedriver_win32/chromedriver')
 driver.implicitly_wait(3)
